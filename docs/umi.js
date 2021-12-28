@@ -55,7 +55,7 @@
 		(n.o = function (e, t) {
 			return Object.prototype.hasOwnProperty.call(e, t);
 		}),
-		(n.p = '/'),
+		(n.p = '/docs/'),
 		n((n.s = 0));
 })({
 	'++zV': function (e, t, n) {
@@ -23062,7 +23062,7 @@
 			};
 			return E;
 		}
-		var xe = { basename: '/' };
+		var xe = { basename: '/docs/' };
 		window.routerBase && (xe.basename = window.routerBase);
 		var Ee = Object({ NODE_ENV: 'production' }).__IS_SERVER ? null : be(xe),
 			Se = function () {
