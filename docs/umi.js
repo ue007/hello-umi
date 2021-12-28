@@ -23062,7 +23062,7 @@
 			};
 			return E;
 		}
-		var xe = { basename: '/docs/' };
+		var xe = { basename: '/' };
 		window.routerBase && (xe.basename = window.routerBase);
 		var Ee = Object({ NODE_ENV: 'production' }).__IS_SERVER ? null : be(xe),
 			Se = function () {
